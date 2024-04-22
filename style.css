@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li a{
+    text-decoration: none;
+}
+
+li a i{
+    padding-left: 15px;
+    color: white;
+}
+
+li a sup{
+    color: white;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.table{
+    width: 85%;
+}
+
+.table thead{
+    border-bottom: 2px solid white;
+}
